@@ -1,0 +1,523 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  background-color: #620000;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-right: 100px;
+}
+.button-header {
+  background-color: #f7acb0;
+  height: 35px;
+  border-radius: 20px;
+  width: 130px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.5s;
+  border: solid black 2px;
+}
+.button-header:hover {
+  background-color: #620000;
+  color: white;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  margin-left: 100px;
+}
+
+.paragraph {
+  color: #f7acb0;
+  font-family: "Pacifico";
+  font-size: 25px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.container-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bi {
+  padding-right: 5px;
+}
+
+.title-container-products {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: white;
+  font-family: "Poppins";
+}
+.esquerda1 {
+  width: 500px;
+  height: 400px;
+  margin-left: 100px;
+  border-radius: 40px;
+  margin-top: 60px;
+}
+.container-products {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  width: 1000px;
+  height: 500px;
+  margin-left: 20px;
+  border-radius: 40px;
+  display: flex;
+}
+.img-content {
+  width: 700px;
+}
+.esquerda-title {
+  padding-right: 200px;
+  padding-top: 20px;
+  color: white;
+  font-family: "Poppins";
+}
+.information-content {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.container-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.esquerda-paragraph {
+  text-align: justify;
+  margin-right: 100px;
+  color: white;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+.full-container {
+  background-image: url(./Imagens/Doces.jpeg);
+  background-color: rgba(0, 0, 0, 0.2); /* Cor preta com 50% de transparência */
+  background-blend-mode: multiply;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: absolute;
+}
+.full-container2 {
+  background-image: url(./Imagens/Bolo\ Cenográfico.jpeg);
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: absolute;
+}
+.title-container-products2 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: white;
+  font-family: "Poppins";
+}
+
+.esquerda2 {
+  width: 400px;
+  height: 600px;
+  margin-left: 80px;
+  border-radius: 40px;
+}
+.esquerda-title2 {
+  padding-left: 100px;
+  font-family: "Poppins";
+}
+.container-products2 {
+  background-color: #620000;
+  color: white;
+  width: 1000px;
+  height: 700px;
+  border-radius: 40px;
+  align-items: center;
+  display: flex;
+  margin-top: 100px;
+}
+.esquerda-paragraph2 {
+  text-align: justify;
+  padding-left: 100px;
+  font-family: "Poppins";
+  font-size: 15.5px;
+}
+.img-content2 {
+  width: 400px;
+}
+.information-content2 {
+  height: 600px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+.container-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.esquerda3 {
+  width: 400px;
+  height: 500px;
+  margin-left: 50px;
+  border-radius: 40px;
+  margin-top: 60px;
+}
+.container-products3 {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  width: 1000px;
+  height: 580px;
+  margin-left: 20px;
+  border-radius: 40px;
+  display: flex;
+}
+.img-content3 {
+  width: 700px;
+}
+.esquerda-title3 {
+  padding-right: 200px;
+  padding-top: 20px;
+  color: white;
+  font-family: "Poppins";
+}
+.information-content3 {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.container-container3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+.esquerda-paragraph3 {
+  text-align: justify;
+  margin-right: 100px;
+  color: white;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+.full-container3 {
+  background-image: url(./Imagens/Doces.jpeg);
+  background-color: rgba(0, 0, 0, 0.3); /* Cor preta com 50% de transparência */
+  background-blend-mode: multiply;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: absolute;
+}
+
+.esquerda4 {
+  width: 550px;
+  height: 600px;
+  margin-left: 50px;
+  border-radius: 40px;
+}
+.esquerda-title4 {
+  padding-left: 210px;
+  font-family: "Poppins";
+}
+.container-products4 {
+  background-color: #620000;
+  color: white;
+  width: 1200px;
+  height: 700px;
+  border-radius: 40px;
+  align-items: center;
+  display: flex;
+  margin-top: 100px;
+}
+.esquerda-paragraph4 {
+  text-align: justify;
+  padding-left: 210px;
+  font-family: "Poppins";
+  font-size: 18px;
+}
+.img-content4 {
+  width: 400px;
+}
+.information-content4 {
+  height: 600px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+.container-container4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-container4 {
+  background-image: url(./Imagens/Mine\ naked\ cake.jpeg);
+  height: 135vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: absolute;
+}
+
+.esquerda5 {
+  width: 400px;
+  height: 500px;
+  margin-left: 50px;
+  border-radius: 40px;
+  margin-top: 60px;
+}
+.container-products5 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  width: 1200px;
+  height: 600px;
+  margin-left: 20px;
+  border-radius: 40px;
+  display: flex;
+}
+.img-content5 {
+  width: 700px;
+}
+.esquerda-title5 {
+  padding-right: 200px;
+  padding-top: 20px;
+  color: white;
+  font-family: "Poppins";
+}
+.information-content5 {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.container-container5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+.esquerda-paragraph5 {
+  text-align: justify;
+  margin-right: 100px;
+  color: white;
+  font-size: 15px;
+  font-family: "Poppins";
+}
+.full-container5 {
+  background-image: url(./Imagens/Doces.jpeg);
+  background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de transparência */
+  background-blend-mode: multiply;
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: absolute;
+}
+
+.esquerda6 {
+  width: 550px;
+  height: 600px;
+  margin-left: 50px;
+  border-radius: 40px;
+}
+.esquerda-title6 {
+  padding-left: 210px;
+  font-family: "Poppins";
+}
+.container-products6 {
+  background-color: #620000;
+  color: white;
+  width: 1200px;
+  height: 700px;
+  border-radius: 40px;
+  align-items: center;
+  display: flex;
+  margin-top: 100px;
+}
+.esquerda-paragraph6 {
+  text-align: justify;
+  padding-left: 210px;
+  font-family: "Poppins";
+  font-size: 18px;
+}
+.img-content6 {
+  width: 400px;
+}
+.information-content6 {
+  height: 600px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+.container-container6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-container6 {
+  background-image: url(./Imagens/Mine\ naked\ cake.jpeg);
+  height: 135vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: absolute;
+}
+
+.esquerda7 {
+  width: 400px;
+  height: 500px;
+  margin-left: 50px;
+  border-radius: 40px;
+  margin-top: 60px;
+}
+.container-products7 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  width: 1200px;
+  height: 600px;
+  margin-left: 20px;
+  border-radius: 40px;
+  display: flex;
+}
+.img-content7 {
+  width: 700px;
+}
+.esquerda-title7 {
+  padding-right: 200px;
+  padding-top: 20px;
+  color: white;
+  font-family: "Poppins";
+}
+.information-content7 {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.container-container7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+.esquerda-paragraph7 {
+  text-align: justify;
+  margin-right: 100px;
+  color: white;
+  font-size: 15px;
+  font-family: "Poppins";
+}
+.full-container7 {
+  background-image: url(./Imagens/Doces.jpeg);
+  background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de transparência */
+  background-blend-mode: multiply;
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: absolute;
+}
+
+.esquerda8 {
+  width: 400px;
+  height: 600px;
+  margin-left: 50px;
+  border-radius: 40px;
+}
+.esquerda-title8 {
+  padding-left: 80px;
+  font-family: "Poppins";
+}
+.container-products8 {
+  background-color: #620000;
+  color: white;
+  width: 1200px;
+  height: 700px;
+  border-radius: 40px;
+  align-items: center;
+  display: flex;
+  margin-top: 100px;
+}
+.esquerda-paragraph8 {
+  text-align: justify;
+  padding-left: 80px;
+  font-family: "Poppins";
+  font-size: 18px;
+}
+.img-content8 {
+  width: 400px;
+}
+.information-content8 {
+  height: 600px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+.container-container8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-container8 {
+  background-image: url(./Imagens/Tortas\ Personalizadas.jpeg);
+  height: 135vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: absolute;
+}
+
+.esquerda9 {
+  width: 400px;
+  height: 500px;
+  margin-left: 50px;
+  border-radius: 40px;
+  margin-top: 60px;
+}
+.container-products9 {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  width: 1200px;
+  height: 600px;
+  margin-left: 20px;
+  border-radius: 40px;
+  display: flex;
+}
+.img-content9 {
+  width: 700px;
+}
+.esquerda-title9 {
+  padding-right: 200px;
+  padding-top: 20px;
+  color: white;
+  font-family: "Poppins";
+}
+.information-content9 {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.container-container9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+.esquerda-paragraph9 {
+  text-align: justify;
+  margin-right: 100px;
+  color: white;
+  font-size: 15px;
+  font-family: "Poppins";
+}
+.full-container9 {
+  background-image: url(./Imagens/Kit\ festa\ infantil\ mêsversario.jpeg);
+  background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de transparência */
+  background-blend-mode: multiply;
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
